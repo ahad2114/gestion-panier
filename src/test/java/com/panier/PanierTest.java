@@ -11,7 +11,7 @@ public class PanierTest {
 
     @Test
     void testParticulier() {
-        ClientParticulier client = new ClientParticulier("C001", "Jean", "Dupont");
+        ClientParticulier client = new ClientParticulier("C0011", "Ndiaye", "Abdou");
         Panier panier = new Panier(client);
         panier.ajouterProduit(TypeProduit.HAUT_DE_GAMME, 1);
         panier.ajouterProduit(TypeProduit.MILIEU_DE_GAMME, 2);
@@ -20,7 +20,7 @@ public class PanierTest {
 
     @Test
     void testProPetitCA() {
-        ClientProfessionnel client = new ClientProfessionnel("PRO1", "SARL", Optional.empty(), "123456789", 5000000);
+        ClientProfessionnel client = new ClientProfessionnel("PRO1", "SUARL Abdou", Optional.empty(), "123456789", 5000000);
         Panier panier = new Panier(client);
         panier.ajouterProduit(TypeProduit.HAUT_DE_GAMME, 1);
         panier.ajouterProduit(TypeProduit.LAPTOP, 2);
