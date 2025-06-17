@@ -17,6 +17,7 @@ release.properties
 *.iml
 *.iws
 out/
+*.iml
 
 # --- Mac OS ---
 .DS_Store
